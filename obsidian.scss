@@ -32,41 +32,41 @@
 
 .nav-files-container {
 
-	.nav-folder {
-		.nav-folder-title {
-			font-weight: bold;
+  .nav-folder {
+    .nav-folder-title {
+      font-weight: bold;
 
-			.nav-folder-collapse-indicator {
-				color: var(--chumbalum-color-primary);
-			}
+      .nav-folder-collapse-indicator {
+        color: var(--chumbalum-color-primary);
+      }
 
-			.nav-folder-title-content {
-				color: #000;
-			}
+      .nav-folder-title-content {
+        color: #000;
+      }
 
-			&:hover {
-				.nav-folder-collapse-indicator {
-					color: var(--chumbalum-color-primary);
-				}
-			}
-		}
-	}
+      &:hover {
+        .nav-folder-collapse-indicator {
+          color: var(--chumbalum-color-primary);
+        }
+      }
+    }
+  }
 
-	.nav-file {
-		.nav-file-title {
-			.nav-file-title-content {
-				color: #555;
-			}
+  .nav-file {
+    .nav-file-title {
+      .nav-file-title-content {
+        color: #555;
+      }
 
-			&.is-active {
-				background: var(--chumbalum-color-primary);
+      &.is-active {
+        background: var(--chumbalum-color-primary);
 
-				.nav-file-title-content {
-					color: #FFF;
-				}
-			}
-		}
-	}
+        .nav-file-title-content {
+          color: #FFF;
+        }
+      }
+    }
+  }
 
 }
 
@@ -256,13 +256,13 @@
 /* --- MISC --- */
 
 .search-result-file-matched-text {
-	background-color: var(--chumbalum-color-primary-light);
+  background-color: var(--chumbalum-color-primary-light);
 }
 
 .is-flashing {
-	background-color: var(--chumbalum-color-primary-light);
+  background-color: var(--chumbalum-color-primary-light);
 
   * {
-		color: #000 !important;
-	}
+    color: #000 !important;
+  }
 }
