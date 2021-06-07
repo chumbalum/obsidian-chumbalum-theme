@@ -116,13 +116,16 @@
     color: #333;
   }
 
+  code {
+    color: inherit;
+  }
+
   pre {
     overflow: auto;
     margin-top: 0px;
     margin-bottom: 32px;
     padding: 8px 16px;
     border-radius: 0;
-    color: inherit;
 
     code {
       white-space: pre;

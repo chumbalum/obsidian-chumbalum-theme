@@ -19,6 +19,7 @@
 .workspace-split.mod-left-split > .workspace-leaf-resize-handle {
   height: calc(100% - 36px); }
 
+/* --- FILE EXPLORER --- */
 .nav-files-container .nav-folder .nav-folder-title {
   font-weight: bold; }
   .nav-files-container .nav-folder .nav-folder-title .nav-folder-collapse-indicator {
@@ -70,6 +71,9 @@
   line-height: 1;
   color: #333; }
 
+.markdown-preview-view code {
+  color: inherit; }
+
 .markdown-preview-view pre {
   overflow: auto;
   margin-top: 0px;
@@ -106,8 +110,8 @@
     cursor: zoom-out; }
 
 .markdown-preview-view .tag {
-  background: darkmagenta;
-  color: #fff;
+  background: var(--chumbalum-color-secondary);
+  color: #FFF;
   padding: 0.25rem 0.75rem;
   border-radius: 100px;
   text-decoration: none;
