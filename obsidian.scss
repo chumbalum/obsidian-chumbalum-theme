@@ -18,14 +18,13 @@
   height: 36px;
 }
 
-.workspace-split.mod-left-split {
-	> .workspace-leaf-resize-handle {
-		height: calc(100% - 36px);
-	}
-
-	> .workspace-leaf-resize-handle {
-		height: calc(100% - 36px);
-	}
+.workspace-split {
+  &.mod-left-split,
+  &.mod-right-split {
+    > .workspace-leaf-resize-handle {
+      height: calc(100% - 36px);
+    }
+  }
 }
 
 

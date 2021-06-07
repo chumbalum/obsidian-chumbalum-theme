@@ -13,10 +13,7 @@
 .workspace-tab-header-container {
   height: 36px; }
 
-.workspace-split.mod-left-split > .workspace-leaf-resize-handle {
-  height: calc(100% - 36px); }
-
-.workspace-split.mod-left-split > .workspace-leaf-resize-handle {
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle, .workspace-split.mod-right-split > .workspace-leaf-resize-handle {
   height: calc(100% - 36px); }
 
 /* --- FILE EXPLORER --- */
