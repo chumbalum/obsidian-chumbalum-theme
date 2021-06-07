@@ -1,0 +1,19 @@
+{
+  "name": "obsidian-chumbalum-theme",
+  "version": "1.0.0",
+  "description": "Theme for Obsidian.md",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/node-sass obsidian.scss obsidian.css",
+    "watch": "node_modules/.bin/node-sass --watch obsidian.scss obsidian.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chumbalum/obsidian-chumbalum-theme.git"
+  },
+  "author": "chumbalum",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
